@@ -1,19 +1,17 @@
-// components/Navbar.js
-
 import Link from "next/link";
-import ThemeSwitcher from "./ThemeSwitcher";
+import ThemeToggler from "./ThemeToggler";
 
 const Navbar = () => {
   return (
-    <nav className="flex flex-row justify-center items-center">
-      <ul className="flex flex-row justify-center items-center">
-        <li className="px-4 cursor-pointer capitalize py-6 text-4xl">About</li>
-        <li>Blog</li>
-        <li>Contact</li>
-        <li>
-          <ThemeSwitcher></ThemeSwitcher>
-        </li>
-      </ul>
+    <nav className="w-full py-12">
+      <div className="container mx-auto flex justify-between items-center">
+        <Link href="/">
+          <p className="text-3xl">Advait</p>
+        </Link>
+        <div>
+          <ThemeToggler></ThemeToggler>
+        </div>
+      </div>
     </nav>
   );
 };
