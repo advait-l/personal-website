@@ -25,7 +25,7 @@ const ThemeToggler = () => {
     <div
       onClick={toggleTheme}
       className={`
-       relative w-12 h-6 flex items-center dark:bg-[#363537] bg-blue-300 cursor-pointer rounded-full p-1`}>
+       relative w-12 h-6 flex items-center dark:bg-slate-700 bg-blue-300/50 shadow-lg cursor-pointer rounded-full p-1`}>
       <MoonIcon className="fill-white w-[15px] h-[15px]"></MoonIcon>
       <div
         id="toggleBtnTheme"
