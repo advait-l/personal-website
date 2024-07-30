@@ -1,13 +1,18 @@
+"use client";
+
 import Image from "next/image";
 import ThemeToggler from "./components/ThemeToggler";
+import { useRouter } from 'next/navigation';
 import Navbar from "./components/Navbar";
 
 export default function Home() {
+  const router = useRouter();
+
   return (
     <main className="flex flex-col w-full h-screen items-center justify-center">
-      <Navbar />
       {/* Hero Section */}
-      <div className="flex flex-col items-center justify-center w-3/4 h-full shadow-xl bg-gray-100 dark:bg-gray-900/25">
+      <div className="flex flex-col items-center justify-center w-full h-full shadow-xl bg-gray-100 dark:bg-gray-900">
+        
         <div className="h-3/4 w-3/4 flex flex-col items-start justify-start gap-8">
           <p className="text-md font-light">THIS IS ME</p>
           <div>
@@ -32,6 +37,7 @@ export default function Home() {
           <button
             className="select-none rounded-lg bg-gradient-to-tr from-red-800 to-red-700 py-3 px-6 text-center align-middle text-xs font-semibold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 "
             type="button"
+            onClick={() => {router.push('/blog')}}
           >
             Check out my blog
           </button>
