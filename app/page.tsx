@@ -13,7 +13,7 @@ export default function Home() {
       {/* Hero Section */}
       <div className="flex flex-col items-center justify-center w-full h-full shadow-xl bg-gray-100 dark:bg-gray-900">
         
-        <div className="h-3/4 w-3/4 flex flex-col items-start justify-start gap-8">
+        <div className="h-full w-full flex flex-col items-start justify-start gap-8 p-16">
           <p className="text-md font-light">THIS IS ME</p>
           <div>
             <p className="text-6xl font-black drop-shadow-xl">Advait Lonkar</p>
