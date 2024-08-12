@@ -4,4 +4,5 @@ export interface PostData {
     title: string;
     excerpt: string;
     date: string;
+    tag: string;
 }

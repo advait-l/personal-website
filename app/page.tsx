@@ -9,11 +9,11 @@ export default function Home() {
   const router = useRouter();
 
   return (
-    <main className="flex flex-col w-full h-screen items-center justify-center">
+    <main className="flex flex-col w-full h-screen items-center justify-center select-none">
       {/* Hero Section */}
       <div className="flex flex-col items-center justify-center w-full h-full shadow-xl bg-gray-100 dark:bg-gray-900">
         
-        <div className="h-full w-full flex flex-col items-start justify-start gap-8 p-16">
+        <div className="h-full w-full text-center md:text-left flex flex-col items-center md:items-start justify-start gap-8 p-8 md:p-16">
           <p className="text-md font-light">THIS IS ME</p>
           <div>
             <p className="text-6xl font-black drop-shadow-xl">Advait Lonkar</p>
