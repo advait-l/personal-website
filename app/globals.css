@@ -17,6 +17,19 @@ body {
   background: rgb(var(--background-rgb));
 }
 
+@layer base {
+  h1 {
+    @apply text-2xl;
+    @apply font-semibold;
+    @apply mt-4;
+    @apply mb-2;
+  }
+  h2 {
+    @apply text-xl;
+  }
+}
+
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

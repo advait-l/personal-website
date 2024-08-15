@@ -30,12 +30,13 @@ export default async function Post({ params }: { params: Params }) {
   const processedContent = await remark()
     .use(html)
     .process(matterResult.content);
-  const sanitizedContent = sanitize(processedContent.toString());
+    const sanitizedContent = sanitize(processedContent.toString());
+    console.log(sanitizedContent);
 
   return (
     <div className="flex flex-col p-16 w-full h-screen overflow-auto bg-gray-100 dark:bg-gray-900">
         <h1 className="text-4xl font-semibold my-8">{matterResult.data.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: sanitizedContent }} />
+        <div className="lg:w-3/5" dangerouslySetInnerHTML={{ __html: sanitizedContent }} />
     </div>
     // <div>
     //   <Head>
