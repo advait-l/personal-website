@@ -33,7 +33,7 @@ export default async function Post({ params }: { params: Params }) {
     const sanitizedContent = sanitize(processedContent.toString());
 
   return (
-    <div className="flex flex-col px-12 w-full h-screen overflow-auto bg-gray-100 dark:bg-gray-900">
+    <div className="flex flex-col px-6 w-full h-screen overflow-auto bg-gray-100 dark:bg-gray-900">
         <h1 className="text-4xl font-semibold my-8">{matterResult.data.title}</h1>
         <div className="lg:w-3/5" dangerouslySetInnerHTML={{ __html: sanitizedContent }} />
     </div>

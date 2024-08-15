@@ -8,7 +8,7 @@ import { useState } from "react";
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   return (
-    <div className="flex flex-row items-center justify-between bg-gray-100 dark:bg-gray-900 py-8 px-12">
+    <div className="flex flex-row items-center justify-between bg-gray-100 dark:bg-gray-900 py-6 px-8">
       <Link href="/">
         <Logo></Logo>
       </Link>
