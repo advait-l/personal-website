@@ -1,6 +1,6 @@
 ---
 title: "Internship at Morgan Stanley, Summer 2021"
-excerpt: 'Hi this is my first blog *Vivamus efficitur, magna vel efficitur tempus, magna magna efficitur magna, vel efficitur magna magna. blah blah blah blahblah blahblah blahblah blahblah blahblah blahblah blah'
+excerpt: 'My experience as a summer intern at Morgan Stanley in 2021, including the training sessions, project work, interview and project showcase.'
 date: '2021-07-20T23:33:46+05:30'
 tag: 'Morgan Stanley'
 ---

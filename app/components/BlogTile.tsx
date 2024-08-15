@@ -35,7 +35,7 @@ const BlogTile: React.FC<BlogTileProps> = ({
         <small className="border border-gray-400 dark-border-gray-500 rounded-xl px-2 py-1">{tag}</small>
         <div className="flex flex-col my-2">
           <h1 className="text-xl font-semibold">{title}</h1>
-          <p className="text-ellipsis">{excerpt}</p>
+          <p className="line-clamp-2">{excerpt}</p>
         </div>
         <br />
         <small>{date}</small>
