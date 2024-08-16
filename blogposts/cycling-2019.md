@@ -1,8 +1,9 @@
 ---
 title: "It's all downhill from here..."
 excerpt: 'My experience from a 200+ kms cycling trip in the third year of my college in 2019.'
-date: '2024-10-18'
+date: '2020-10-18'
 tag: 'Travel'
+thumbnail: '/blog-images/cycling-2019.jpg'
 ---
 
 If you want to know how 6 novices cycled 200+ kms and returned unscathed, then you've come to right place. It has almost been a year since the Bangalore to Bheemeshwari nature camp cycling trip and during the quarantine period of 2020, it has dawned upon me that this trip deserves a rekindling. 

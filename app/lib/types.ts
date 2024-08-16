@@ -5,4 +5,5 @@ export interface PostData {
     excerpt: string;
     date: string;
     tag: string;
+    thumbnail: string;
 }

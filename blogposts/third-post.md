@@ -3,6 +3,7 @@ title: 'My Third Post'
 excerpt: 'Hi this is my third blog'
 date: '2024-08-09'
 tag: 'Coding'
+thumbnail: '/logo.jpg'
 ---
 
 This is the content of my first post.

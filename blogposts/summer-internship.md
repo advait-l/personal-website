@@ -1,8 +1,9 @@
 ---
 title: "Internship at Morgan Stanley, Summer 2021"
 excerpt: 'My experience as a summer intern at Morgan Stanley in 2021, including the training sessions, project work, interview and project showcase.'
-date: '2021-07-20T23:33:46+05:30'
+date: '2021-07-20'
 tag: 'Morgan Stanley'
+thumbnail: '/blog-images/times-square.jpg'
 ---
 <img src="/times-square.jpg" alt="Featured on Times Square" style="max-height: 500px; max-width: 500px; padding: 0 0 0 3em;" align="right">
 
