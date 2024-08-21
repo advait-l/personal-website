@@ -2,8 +2,8 @@
 
 import { useRouter } from "next/navigation";
 import { Canvas, extend } from "@react-three/fiber";
-import { Center, OrbitControls, Text3D } from "@react-three/drei";
-import MyFont from "../public/fonts/Roboto Medium_Regular.json";
+import { Center, FontData, OrbitControls, Text3D } from "@react-three/drei";
+import MyFont from "../public/fonts/roboto.json";
 
 export default function Home() {
   const router = useRouter();
@@ -52,8 +52,8 @@ export default function Home() {
             }}
           >
             <ambientLight color={"red"} intensity={10} />
-            <Center top middle>
-              <Text3D font={MyFont}>Advait Lonkar</Text3D>
+            <Center top>
+              <Text3D font={"/fonts/roboto.json"}>Advait Lonkar</Text3D>
             </Center>
             <OrbitControls />
           </Canvas>
