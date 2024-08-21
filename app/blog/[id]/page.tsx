@@ -33,7 +33,7 @@ export default async function Post({ params }: { params: Params }) {
   const sanitizedContent = sanitize(processedContent.toString());
 
   return (
-    <div className="flex flex-col px-6 lg:px-16 w-full pb-12 h-screen overflow-scroll bg-gray-100 dark:bg-gray-900">
+    <div className="flex flex-col px-6 lg:px-16 w-full pb-12 min-h-screen h-full overflow-scroll bg-gray-100 dark:bg-gray-900">
       <button
         className="select-none w-fit rounded-lg bg-gradient-to-tr from-red-800 to-red-700 py-3 px-6 text-center align-middle text-xs font-semibold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 "
         type="button"
@@ -42,7 +42,7 @@ export default async function Post({ params }: { params: Params }) {
       </button>
       <h1 className="text-4xl font-semibold my-8">{matterResult.data.title}</h1>
       <div
-        className="lg:w-3/5 "
+        className="lg:w-3/5 h-full"
         dangerouslySetInnerHTML={{ __html: sanitizedContent }}
       />
     </div>

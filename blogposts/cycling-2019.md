@@ -1,6 +1,6 @@
 ---
 title: "It's all downhill from here..."
-excerpt: 'My experience from a 200+ kms cycling trip in the third year of my college in 2019.'
+excerpt: 'My experience from a 200+ kms cycling trip to Bheemeshwari, Tamil Nadu, in the third year of my college in 2019.'
 date: '2020-10-18'
 tag: 'Travel'
 thumbnail: '/blog-images/cycling-2019.jpg'
